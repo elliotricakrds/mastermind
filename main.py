@@ -127,7 +127,7 @@ def draw_screen():
 def draw_winning_message():
     pygame.draw.rect(screen, white, [WIDTH / 4, HEIGHT / 2 - 50, WIDTH / 2, 100])
     text = font.render("Congratulations! You Win!", True, black)
-    screen.blit(text, (WIDTH / 4 + 20, HEIGHT / 2 - 10))
+    screen.blit(text, (WIDTH / 4 + 10, HEIGHT / 2 - 10))
 
 def check_guess():
     global solved
